@@ -17,7 +17,7 @@ public class UdpServer {
     private UdpServer(){
     }
     public static class InnerClass{
-        public static final UdpServer INSTANCE = new UdpServer();
+         public static final UdpServer INSTANCE = new UdpServer();
     }
     private void initServer(int port){
         final NioEventLoopGroup nioEventLoopGroup = new NioEventLoopGroup();
